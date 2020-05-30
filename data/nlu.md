@@ -240,6 +240,23 @@
 ## regex:pincode
 - [0-9]{6}
 
+## intent:food_order
+
+- I Want to order [Malai Shawarma](restaurants) [Hyderbab](locations) 
+- I want to eat [malai shawarma](food) from [Shah Ghouse Hotel](restaurants) [Hyderabad](locations)
+- I want [Biryani](food) from [Bawarchi](restaurants) [RTC Cross road](locations)
+- I want [Chicken Biryani](food) from [Bawarchi](restaurants) [RTC Cross road](locations)
+
+- I want to eat [Haleem](food) from [Pista House](restaurants) [Hyderabad](locations)
+- I want to eat something from the best restaurant of [Hyderabad](locations)
+- can you please book [Haleem](food) from [RTC Cross road](locations)'s [Bawarchi](restaurants) 
+
+## intent:drink_order
+
+- Can you please order [Lassi](baverages) and [Badam Milk](baverages) from [Bawarchi](restaurants)
+- I want [karachi bakery](restaurants)[Badam Milk](baverages) 
+- I would like to have cool [lassi](baverages) from [KS Bakers](restaurants) for my [uncle](relation)
+- I want [Pulpy Orange](baverages) from [Gachibowli](locations)
 
 ## intent:order_booking
 
